@@ -15,6 +15,11 @@ class Test_ageCalc(unittest.TestCase):
   def test_none_input(self):
     test_param = None
     result = ageCalc.calculateAge(test_param)
-    self.assertIsInstance(result,ValueError)
+    self.assertEqual(result,'Please enter a number')
+  def presence_check_test(self):
+    test_param = ''
+    result = ageCalc.calculateAge(test_param)
+    self.assertEqual(result,'Please enter a number')
 #running the test
-unittest.main()
+if __name__ =='__main__':
+  unittest.main()
