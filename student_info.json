@@ -1,0 +1,12 @@
+{
+  "Student01": {
+    "name": "Adam",
+    "Topic": "Algorithms",
+    "email": "fssemwanga@gmail.com"
+  },
+  "Student02": {
+    "name": "Jenny",
+    "Topic": "Data structures",
+    "email": "dssales@gmx.com"
+  }
+}
